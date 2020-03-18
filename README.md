@@ -1,6 +1,8 @@
 # Summary
 The summary of learning what i am learining
 
+![](https://img.shields.io/github/repo-size/PommesPeter/Summary.svg?style=flat)
+
 # Welcome to my codeworld
 
 # NoteList
