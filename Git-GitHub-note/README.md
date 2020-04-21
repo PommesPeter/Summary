@@ -12,6 +12,8 @@ git add -A//添加所有变化到暂存区
 
 git commit -m“message”//备注message信息
 
+git remote add origin https://github.com/fengcangjun/learngit.git
+
 git push (origin master)//推到远程仓库
 
 git pull //拉取同步远处仓库
