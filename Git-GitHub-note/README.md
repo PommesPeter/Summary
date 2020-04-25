@@ -27,3 +27,7 @@ git status//查看暂存区历史信息
 git pull --rebase origin master
 
 git push -u origin master
+
+Git 单文件上传大小限制
+
+git config --global http.postBuffer 524288000
