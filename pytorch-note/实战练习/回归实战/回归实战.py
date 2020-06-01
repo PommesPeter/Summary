@@ -10,7 +10,7 @@ def compute_error_for_line_give_points(b, w, points):  # 计算损失
     """
     b:当前的 b值
     w:当前的 w值
-    points:list 点的列表
+    points:list 点
     """
     totalError = 0
     for i in range(0, len(points)):
