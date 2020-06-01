@@ -8,8 +8,8 @@ from torch.autograd import *
 # 计算loss
 def compute_error_for_line_give_points(b, w, points):  # 计算损失
     """
-    b:当前的b值
-    w:当前的w值
+    b:当前的 b值
+    w:当前的 w值
     points:list 点的列表
     """
     totalError = 0
@@ -44,7 +44,7 @@ def gradient_decent_runner(points, starting_b, starting_w,
 
     return [b, w]
 
-
+# 运行代码
 def run():
     points = np.genfromtxt('data.csv', delimiter=',')
     learning_rate = 0.00001
